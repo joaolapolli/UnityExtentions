@@ -1,25 +1,33 @@
 {
-	"name": "com.[company-name].[package-name]",
-	"version": "1.2.3",
-	"displayName": "Package Example",
-	"description": "This is an example package",
-	"unity": "2019.1",
-	"unityRelease": "0b5",
-	"documentationUrl": "https://example.com/",
-	"changelogUrl": "https://example.com/changelog.html",
-	"licensesUrl": "https://example.com/licensing.html",
-	"dependencies": {
-		"com.[company-name].some-package": "1.0.0",
-		"com.[company-name].other-package": "2.0.0"
-	},
-	"keywords": [
-		"keyword1",
-		"keyword2",
-		"keyword3"
-	],
-	"author": {
-		"name": "Unity",
-		"email": "unity@example.com",
-		"url": "https://www.unity3d.com"
-	}
+  "name": "com.unity.uiextensions",
+  "displayName": "Unity UI Extensions",
+  "version": "2.2.7",
+  "description": "An extension project for the Unity3D UI system, all crafted and contributed by the awesome Unity community",
+  "author": "Simon darkside Jackson <@SimonDarksideJ>",
+  "contributors": [{
+  "name": "SimonDarksideJ",
+  "twitter": "@SimonDarksideJ"
+}],
+  "unity": "2019.4",
+  "repository": {
+  "type": "git",
+  "url": "git+https://bitbucket.org/UnityUIExtensions/unity-ui-extensions.git"
+},
+  "bugs": {
+  "url": "https://bitbucket.org/UnityUIExtensions/unity-ui-extensions/issues"
+},
+  "keywords": [
+  "Unity3D",
+  "Unity",
+  "Unity UI",
+  "UI Extensions"
+],
+  "samples": [
+    {
+      "displayName": "UI Extensions Samples",
+      "description": "Examples and demonstrations of the Unity UI Extensions controls",
+      "path": "Examples~"
+    }
+], 
+  "license": "BSD3"
 }
